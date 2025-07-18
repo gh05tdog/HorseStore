@@ -1,6 +1,6 @@
 name: HorseStore
-main: org.ghostdog.horseStore.HorseStore
-version: 1.0-SNAPSHOT
+main: org.ghostdog.horseStore.horseStore
+version: 1.0
 api-version: 1.21
 commands:
   horse:
