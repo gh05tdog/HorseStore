@@ -1,0 +1,10 @@
+name: HorseStore
+main: org.ghostdog.horseStore.HorseStore
+version: 1.0-SNAPSHOT
+api-version: 1.21
+commands:
+  horse:
+    description: "Manage your claimed horses: spawn, store, kill, list"
+    usage: "/horse <spawn|store|kill|list> [slot]"
+    permission: horse.use
+    permission-message: "&cDu har ikke tilladelse til at bruge denne kommando."
